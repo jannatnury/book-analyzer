@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Analyzer from './components/Analyzer/Analyzer';
+import Charts from './components/Charts/Charts';
 import CustomerReview from './components/CustomerReview/CustomerReview';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -12,8 +13,8 @@ function App() {
       <h1 className='text-3xl pt-3 font-bold font-serif'>E-BOOK ANALYZR</h1>
       <Routes>
         <Route path='/' element={<Analyzer></Analyzer> }></Route>
-        <Route path='/' element={<CustomerReview></CustomerReview> }></Route>
         <Route path='/reviews' element={<CustomerReview></CustomerReview>}></Route>
+        <Route path='/dashboard' element={<Charts></Charts>}></Route>
       </Routes>
     </div>
   );
