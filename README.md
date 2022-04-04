@@ -9,5 +9,5 @@
 ## Used Technologies:
 #### Library: React
 #### Core Language: JavaScript
-#### CSS Framework: Bootstrap with vanila css
-#### Icon Library: Font Awesome
+#### CSS Framework: Tailwind CSS
+#### Icon Library: Hero icons
