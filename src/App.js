@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Analyzer from './components/Analyzer/Analyzer';
 import CustomerReview from './components/CustomerReview/CustomerReview';
@@ -9,9 +10,11 @@ function App() {
     <div className="App">
       <Header></Header>
       <h1 className='text-3xl pt-3 font-bold font-serif'>E-BOOK ANALYZR</h1>
-      <Analyzer></Analyzer>
-      <CustomerReview></CustomerReview>
-      <Footer></Footer>
+      <Routes>
+        <Route path='/' element={<Analyzer></Analyzer> }></Route>
+        <Route path='/' element={<CustomerReview></CustomerReview> }></Route>
+        <Route path='/reviews' element={<CustomerReview></CustomerReview>}></Route>
+      </Routes>
     </div>
   );
 }
