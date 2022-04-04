@@ -94,7 +94,7 @@ const product02 = [
 
 const Charts = () => {
     return (
-        <div className='flex justify-between my-5 mx-5'>
+        <div className='flex justify-between my-8 mx-5'>
             <div>
                 <h1 className='text-3xl text-gray-600 font-sans font-semibold'>Line Chart </h1>
                 {/* Line Chart */}
