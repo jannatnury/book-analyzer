@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Analyzer from './components/Analyzer/Analyzer';
+import Blogs from './components/Blogs/Blogs';
 import Charts from './components/Charts/Charts';
 import CustomerReview from './components/CustomerReview/CustomerReview';
 import Footer from './components/Footer/Footer';
@@ -15,7 +16,9 @@ function App() {
         <Route path='/' element={<Analyzer></Analyzer> }></Route>
         <Route path='/reviews' element={<CustomerReview></CustomerReview>}></Route>
         <Route path='/dashboard' element={<Charts></Charts>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
