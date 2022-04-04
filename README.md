@@ -1,6 +1,6 @@
 # Book-Analyzer
 
-#### Website:https://app.netlify.com/sites/book-analyzer-jannatnury/settings/general 
+#### Website:https://book-analyzer-jannatnury.netlify.app/ 
 
 ## Description
 
