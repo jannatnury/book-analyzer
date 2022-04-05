@@ -19,7 +19,6 @@ function App() {
         <Route path='/dashboard' element={<Charts></Charts>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
-      <CustomerReview></CustomerReview>
       <Footer></Footer>
     </div>
   );

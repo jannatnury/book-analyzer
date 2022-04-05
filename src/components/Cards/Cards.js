@@ -5,7 +5,7 @@ const Cards = (props) => {
     // destructuring from Reviews component
     const { name, img, review, rating } = props.review;
     return (
-        <div className='md:grid-cols-3'>
+        <div className='card-container'>
             {/* card of every single review */}
             <div className="max-w-sm rounded overflow-hidden shadow-lg ">
                 <img className="w-full" src={img} alt="Sunset in the mountains" />
