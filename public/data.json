@@ -4,41 +4,41 @@
         "name":"Anaa Maria",
         "img": "https://i2.wp.com/detechter.com/wp-content/uploads/2017/04/facebook-cover-photos-for-girls.jpg?resize=600%2C400&ssl=1",
         "review":"It's an amezing advanture book i have ever read.The main character of this story is Ayesha.She has to wear a veil because anyone who looks upon her falls immediately and uncontrollably in love with her is intriguing. ",
-        "rating":"*****"
+        "rating":"4.8"
     },
     {
         "id":1234202,
         "name":"Markie",
         "img": "https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373__480.jpg",
         "review":"This is a great book.I like Leo most. the fact that Leo is such a complete non-entity, while Ayesha is astonishing, ruins their romance. Why she’d even be interested in Leo, let alone wait two thousand years for him, I do not know",
-        "rating":"****"
+        "rating":"5"
     },
     {
         "id":1234203,
         "name":"Puspa",
         "img": "https://images.indianexpress.com/2022/02/pushpa-1200.jpg?w=389",
         "review":"First I read it's translation in Urdu , then I liked it so much that I couldn't stop myself and fetched all the available books of this series in English and now I am a proud owner of several of them and still looking!!",
-        "rating":"**"
+        "rating":"4.7"
     },
     {
         "id":1234204,
         "name":"Ria Rau",
         "img": "https://www.savethechildren.org/content/dam/usa/images/global-programs/education/uganda-refugee-ch1362834-rec.jpg/_jcr_content/renditions/original",
         "review":"If you are looking for adventure then you should read this one. This is a complete mixture of adventure and thrillar..It was really amazing to read the book. Once you start, you'll finish what happened in the end!",
-        "rating":"***"
+        "rating":"5"
     },
     {
         "id":1234205,
         "name":"Nikhil",
         "img": "https://media.istockphoto.com/photos/headshot-of-a-teenage-boy-picture-id1158014305?k=20&m=1158014305&s=612x612&w=0&h=RgcRlPfHFZA4OWSROC46FgBILIQVyiS6o_EmyZAMt4M=",
         "review":"It was one of my first book when I was in my teen I was fascinated by this book,mythical & mysterious.It was one of my first book when I was in my teen I was fascinated by this book,mythical & mysterious",
-        "rating":"*****"
+        "rating":"4.9"
     },
     {
         "id":1234206,
         "name":"Pria Rai",
         "img": "https://images.unsplash.com/photo-1559234699-d9a087a98537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFjayUyMG9mJTIwZ2lybHxlbnwwfHwwfHw%3D&w=1000&q=80",
         "review":"The most adventurous book I have ever read. It takes you away to another world which seems so real. The She successfully gets hate which eventually turns into sympathy and empathy as well. Worth of reading twice at least",
-        "rating":"*****"
+        "rating": "5"
     }
 ]
