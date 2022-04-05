@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Cards from '../Cards/Cards';
 const CustomerReview = () => {
+
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
         fetch(`data.json`)
@@ -9,9 +10,14 @@ const CustomerReview = () => {
             .then(data => setReviews(data));
     }, []);
     const navigate = useNavigate();
+
+    // function of event handler
     const btnClicked = () => {
         navigate("/reviews");
     };
+
+    // slicing from reviews route
+
     const newReviews = reviews.slice(0, 3);
     return (
         <div className='mb-5'>
@@ -23,6 +29,8 @@ const CustomerReview = () => {
                     ></Cards>)
                 }
             </div>
+            {/* see more review button */}
+            
             <button onClick={btnClicked} className='text-1xl text-white bg-red-700 p-2 px-4 rounded-3xl items-center mt-8'>See more reviews</button>
         </div>
     );

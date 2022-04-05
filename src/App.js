@@ -13,6 +13,9 @@ function App() {
     <div className="App">
       <Header></Header>
       <h1 className='text-3xl pt-3 font-bold font-serif'>Get Your Favourite Book</h1>
+
+      {/* routes of different components */}
+      
       <Routes>
         <Route path='/' element={<Analyzer></Analyzer> }></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
