@@ -6,6 +6,7 @@ import Charts from './components/Charts/Charts';
 import CustomerReview from './components/CustomerReview/CustomerReview';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <h1 className='text-3xl pt-3 font-bold font-serif'>E-BOOK ANALYZR</h1>
       <Routes>
         <Route path='/' element={<Analyzer></Analyzer> }></Route>
-        <Route path='/reviews' element={<CustomerReview></CustomerReview>}></Route>
+        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<Charts></Charts>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>

@@ -97,7 +97,7 @@ const Charts = () => {
         <div className='flex justify-between my-8 mx-5'>
             <div>
                 <h1 className='text-3xl text-gray-600 font-sans font-semibold'>Line Chart </h1>
-                {/* Line Chart */}
+                {/* Line Chart of data */}
                 <LineChart width={600} height={500} data={data}>
                     <Line dataKey={"sell"}></Line>
                     <Line dataKey={"revenue"}></Line>
@@ -108,6 +108,7 @@ const Charts = () => {
                 </LineChart>
             </div>
             <div>
+                {/* Composed chart of data */}
                 <h1 className='text-3xl text-gray-600 font-sans font-semibold'>Compose Chart </h1>
                 <ComposedChart width={600} height={500} data={data}>
                     <XAxis dataKey={data}></XAxis>
