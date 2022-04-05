@@ -8,7 +8,7 @@ const Cards = (props) => {
         <div className='card-container'>
             {/* card of every single review */}
             <div className="max-w-sm rounded overflow-hidden shadow-lg ">
-                <img className="w-full" src={img} alt="Sunset in the mountains" />
+                <img className="w-full images" src={img} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">Name:{name}</div>
                     <p className="text-gray-700 text-base">{review}</p>

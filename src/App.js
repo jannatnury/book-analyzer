@@ -6,6 +6,7 @@ import Charts from './components/Charts/Charts';
 import CustomerReview from './components/CustomerReview/CustomerReview';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import PageUnavilable from './components/PageUnavilable/PageUnavilable';
 import Reviews from './components/Reviews/Reviews';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<Charts></Charts>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='*' element={<PageUnavilable></PageUnavilable>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

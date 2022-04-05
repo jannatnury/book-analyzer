@@ -9,7 +9,7 @@ const Reviews = () => {
         .then(data=>setReviews(data));
     },[]);
     return (
-        <div className='grid grid-cols-3 gap-7'>
+        <div className='grid grid-cols-3 gap-7 p-4'>
             {
                     reviews.map(review=> <Cards
                     key={review.id} review={review}
