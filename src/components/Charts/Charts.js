@@ -38,59 +38,6 @@ const data = [
         "revenue": 61000
     }
 ];
-const product01 = [
-    {
-        "name": "Product A",
-        "price": 450
-    },
-    {
-        "name": "Product B",
-        "price": 200
-    },
-    {
-        "name": "Product C",
-        "price": 250
-    },
-    {
-        "name": "Product D",
-        "price": 300
-    },
-    {
-        "name": "Product E",
-        "price": 270
-    },
-    {
-        "name": "Product F",
-        "price": 180
-    }
-];
-
-const product02 = [
-    {
-        "name": "Product A",
-        "price": 2500
-    },
-    {
-        "name": "Product B",
-        "price": 4465
-    },
-    {
-        "name": "Product C",
-        "price": 1401
-    },
-    {
-        "name": "Product D",
-        "price": 9500
-    },
-    {
-        "name": "Product E",
-        "price": 3950
-    },
-    {
-        "name": "Product F",
-        "price": 4800
-    }
-];
 
 const Charts = () => {
     return (
