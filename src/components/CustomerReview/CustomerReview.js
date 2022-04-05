@@ -15,7 +15,7 @@ const CustomerReview = () => {
     const newReviews = reviews.slice(0, 3);
     return (
         <div className='mb-5'>
-            <h1 className='text-3xl text-green-700 font-sans font-bold text-center'>Customers Reviews <small> ( <span className='text-red-600'>3</span> )</small></h1>
+            <h1 className='text-3xl text-yellow-600 font-sans font-bold text-center mb-6'>Customers Reviews <small> ( <span className='text-black'>3</span> )</small></h1>
             <div className="grid grid-cols-3 gap-4">
                 {
                     newReviews.map(review => <Cards

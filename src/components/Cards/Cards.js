@@ -2,13 +2,17 @@ import React from 'react';
 import './Card.css';
 
 const Cards = (props) => {
+
     // destructuring from Reviews component
+
     const { name, img, review, rating } = props.review;
     return (
-        <div className='card-container'>
+        <div className='card-container ml-6'>
+
             {/* card of every single review */}
+
             <div className="max-w-sm rounded overflow-hidden shadow-lg ">
-                <img className="w-full images" src={img} alt="Sunset in the mountains" />
+                <img className="card-img" src={img} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">Name:{name}</div>
                     <p className="text-gray-700 text-base">{review}</p>
