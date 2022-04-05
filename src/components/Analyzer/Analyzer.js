@@ -7,8 +7,8 @@ import './Analyzer.css';
 const Analyzer = () => {
     return (
         <div>
-            <div className='flex items-center justify-between px-10 md:px-20 mt-3 w-auto gap-6 mb-5'>
-                <div className=''>
+            <div className='flex flex-col md:flex-row items-center justify-between px-10 md:px-20 mt-3 w-auto gap-6 mb-5'>
+                <div>
 
                     {/* Book image for review */}
 

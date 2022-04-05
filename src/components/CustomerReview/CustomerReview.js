@@ -22,7 +22,7 @@ const CustomerReview = () => {
     return (
         <div className='mb-5'>
             <h1 className='text-3xl text-yellow-600 font-sans font-bold text-center mb-6'>Customers Reviews <small> ( <span className='text-black'>3</span> )</small></h1>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-4">
                 {
                     newReviews.map(review => <Cards
                         key={review.id} review={review}
@@ -30,7 +30,7 @@ const CustomerReview = () => {
                 }
             </div>
             {/* see more review button */}
-            
+
             <button onClick={btnClicked} className='text-1xl text-white bg-red-700 p-2 px-4 rounded-3xl items-center mt-8'>See more reviews</button>
         </div>
     );

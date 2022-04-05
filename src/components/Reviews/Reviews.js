@@ -9,7 +9,7 @@ const Reviews = () => {
         .then(data=>setReviews(data));
     },[]);
     return (
-        <div className='grid md:grid-cols-3 sm:grid-cols-1 gap-7 p-4'>
+        <div className='grid md:grid-cols-3 grid-cols-1 gap-7 p-4'>
             {/* mapping of reviews to display on carrd */}
             {
                     reviews.map(review=> <Cards
